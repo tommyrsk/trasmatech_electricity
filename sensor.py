@@ -35,7 +35,8 @@ class TrasMaTechCoordinator(DataUpdateCoordinator):
         """Fetch data from the API asynchronously."""
         try:
             now = datetime.now(timezone.utc)
-            end_time = now.replace(second=0, microsecond=0) - timedelta(minutes=1)
+
+            end_time = now.replace(second=0, microsecond=0) - timedelta(minutes=2)
             start_time = end_time - timedelta(minutes=1)
 
             start_date_str = start_time.strftime("%Y-%m-%dT%H:%M:%SZ")
