@@ -1,6 +1,8 @@
 # TrasMaTech - Electricity Meter - Home Assistant
 Custom Integration for integrating Electricity Meter that use HAN / API.
 
+The readings are approximately 2 minutes old when looking in Home Assistant.
+
 For the moment there is only support for the Norwegian OSS-device used by Å Strøm.<br>
 (More updates will arrive)
 
