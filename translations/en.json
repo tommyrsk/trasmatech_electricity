@@ -1,0 +1,39 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Setup TrasMaTech Electricity",
+                "description": "Choose a provider and enter your credentials.",
+                "data": {
+                    "provider": "Select your provider",
+                    "token": "API Token",
+                    "meter_id": "Meter ID"
+                }
+            }
+        },
+        "providers": {  
+            "oss": {
+                "name": "Å Strøm - (OSS-brikke)",
+                "api_url": "https://api.services.oss.no/api/"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "title": "Change settings",
+                "description": "Modify the integration settings below.",
+                "data": {
+                    "provider": "Select your provider",
+                    "token": "API Token",
+                    "meter_id": "Meter ID"
+                }
+            }
+        }
+    },
+    "common": {
+        "provider": "Select your provider",
+        "token": "API Token",
+        "meter_id": "Meter ID"
+    }
+}

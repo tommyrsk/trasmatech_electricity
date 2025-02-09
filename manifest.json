@@ -1,0 +1,12 @@
+{
+  "domain": "trasmatech_electricity",
+  "name": "TrasMaTech - Electricity Meter",
+  "version": "1.0.0",
+  "documentation": "https://github.com/tommyrsk/trasmatech_electricity",
+  "requirements": ["requests"],
+  "dependencies": [],
+  "codeowners": ["@tommyrsk"],
+  "issue_tracker": "https://github.com/tommyrsk/trasmatech_electricity/issues",
+  "iot_class": "cloud_polling",
+  "config_flow": true
+}
